@@ -1,0 +1,84 @@
+[
+  {
+    "fuel_id": "HFO",
+    "name": "Heavy Fuel Oil (LS-HFO)",
+    "energy_density_relative": 1.0,
+    "energy_density_mj_per_kg": 40.2,
+    "cost_per_tonne_usd": 620.0,
+    "emission_factor_wtw_relative": 1.0,
+    "emission_factor_co2e_per_tonne": 3.58,
+    "vessel_compatible_types": [
+      "Handysize Bulk",
+      "Panamax Bulk",
+      "Capesize Bulk",
+      "Feeder Container"
+    ],
+    "illustrative": true,
+    "notes": "Conventional maritime benchmark fuel. High WTW GHG emissions."
+  },
+  {
+    "fuel_id": "LNG",
+    "name": "Liquefied Natural Gas",
+    "energy_density_relative": 1.15,
+    "energy_density_mj_per_kg": 48.0,
+    "cost_per_tonne_usd": 780.0,
+    "emission_factor_wtw_relative": 0.78,
+    "emission_factor_co2e_per_tonne": 2.79,
+    "vessel_compatible_types": [
+      "Handysize Bulk",
+      "Panamax Bulk",
+      "Capesize Bulk",
+      "Neo-Panamax Green"
+    ],
+    "illustrative": true,
+    "notes": "Transition fuel with lower SOx/NOx and ~22% lower direct WTW emissions."
+  },
+  {
+    "fuel_id": "Methanol",
+    "name": "Green E-Methanol",
+    "energy_density_relative": 0.5,
+    "energy_density_mj_per_kg": 19.9,
+    "cost_per_tonne_usd": 950.0,
+    "emission_factor_wtw_relative": 0.35,
+    "emission_factor_co2e_per_tonne": 1.25,
+    "vessel_compatible_types": [
+      "Handysize Bulk",
+      "Panamax Bulk",
+      "Feeder Container",
+      "Neo-Panamax Green"
+    ],
+    "illustrative": true,
+    "notes": "Bio or e-methanol with low lifecycle footprint. Requires 2x volumetric bunker capacity."
+  },
+  {
+    "fuel_id": "Ammonia",
+    "name": "Green Ammonia (NH3)",
+    "energy_density_relative": 0.46,
+    "energy_density_mj_per_kg": 18.6,
+    "cost_per_tonne_usd": 1100.0,
+    "emission_factor_wtw_relative": 0.15,
+    "emission_factor_co2e_per_tonne": 0.54,
+    "vessel_compatible_types": [
+      "Panamax Bulk",
+      "Capesize Bulk",
+      "Neo-Panamax Green"
+    ],
+    "illustrative": true,
+    "notes": "Zero-carbon molecule at combustion; 85% WTW lifecycle reduction when green-synthesized."
+  },
+  {
+    "fuel_id": "Hydrogen",
+    "name": "Liquid Green Hydrogen (LH2)",
+    "energy_density_relative": 2.98,
+    "energy_density_mj_per_kg": 120.0,
+    "cost_per_tonne_usd": 2800.0,
+    "emission_factor_wtw_relative": 0.08,
+    "emission_factor_co2e_per_tonne": 0.29,
+    "vessel_compatible_types": [
+      "Feeder Container",
+      "Neo-Panamax Green"
+    ],
+    "illustrative": true,
+    "notes": "Near zero emissions; cryogenic storage requirements and high production cost."
+  }
+]

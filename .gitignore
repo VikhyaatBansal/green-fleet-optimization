@@ -1,0 +1,30 @@
+﻿# Dependencies
+node_modules/
+frontend/node_modules/
+.pnp
+.pnp.js
+
+# Next.js build output
+.next/
+frontend/.next/
+out/
+frontend/out/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Local binaries & secrets
+cloudflared.exe
+.env
+.env*.local
+
+# OS
+.DS_Store
+Thumbs.db

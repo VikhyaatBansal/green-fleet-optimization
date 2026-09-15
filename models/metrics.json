@@ -1,0 +1,32 @@
+{
+  "model_name": "Physics-Informed XGBoost Residual Regressor",
+  "train_samples": 3200,
+  "test_samples": 800,
+  "features": [
+    "engine_power_kw",
+    "dwt_tonnes",
+    "sfoc_baseline_g_kwh",
+    "speed_kn",
+    "cargo_load_tonnes",
+    "cargo_load_ratio",
+    "distance_nm",
+    "sea_state_douglas",
+    "wave_height_m",
+    "wind_speed_kn",
+    "fuel_energy_density_relative"
+  ],
+  "hybrid_metrics": {
+    "mae_tonnes": 9.1321,
+    "rmse_tonnes": 14.3542,
+    "r2_score": 0.9981
+  },
+  "baseline_only_metrics": {
+    "mae_tonnes": 91.2302,
+    "rmse_tonnes": 118.8262,
+    "r2_score": 0.8722
+  },
+  "improvement": {
+    "mae_reduction_pct": 89.99,
+    "rmse_reduction_pct": 87.92
+  }
+}
