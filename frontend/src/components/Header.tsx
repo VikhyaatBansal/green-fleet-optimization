@@ -20,13 +20,12 @@ export const Header: React.FC<HeaderProps> = ({ r2Score = 0.9981 }) => {
             priority
           />
         </div>
+
         <div>
-          <h1 className="text-2xl font-bold tracking-tight text-white flex items-center gap-2">
+          <h1 className="text-2xl font-bold tracking-tight text-white whitespace-nowrap">
             GreenFleet Quanta
-            <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-mono">
-              SIH 26138
-            </span>
           </h1>
+
           <p className="text-xs text-slate-400">
             Quantum-Inspired Maritime Fuel Consumption Prediction & Green Fleet Optimization Engine
           </p>
@@ -38,10 +37,12 @@ export const Header: React.FC<HeaderProps> = ({ r2Score = 0.9981 }) => {
           <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
           Hybrid ML R²: {r2Score}
         </div>
+
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-slate-900 border border-slate-800 text-slate-300">
           <span className="w-2 h-2 rounded-full bg-cyan-400"></span>
           Simulation: QIGA (11 Q-bits)
         </div>
+
         <button
           onClick={() => window.location.reload()}
           className="flex items-center gap-1 px-3 py-1.5 rounded-md bg-slate-800 hover:bg-slate-700 text-slate-200 transition"
